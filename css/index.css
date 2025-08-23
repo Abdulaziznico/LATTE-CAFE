@@ -76,6 +76,7 @@ body {
 .main-picture {
   width: 1328px;
   height: 644px;
+  background: #6f6f64;
 }
 
 /* About-section */
@@ -169,6 +170,7 @@ body {
 .menu-picture {
   width: 664px;
   height: 1037px;
+  background: #6f6f64;
 }
 
 /* Info-section */
@@ -246,16 +248,19 @@ body {
 .gallery-img-top {
   width: 644px;
   height: 300px;
+  background: #6f6f64;
 }
 
 .gallery-img-bottom {
   width: 644px;
   height: 300px;
+  background: #6f6f64;
 }
 
 .gallery-img-large {
   width: 644px;
   height: 640px;
+  background: #6f6f64;
 }
 
 /* Award section  */
