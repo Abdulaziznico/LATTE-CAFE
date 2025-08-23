@@ -171,3 +171,163 @@ body {
   height: 1037px;
 }
 
+/* Info-section */
+
+.info-section {
+  background: #aa9e54;
+  padding: 120px 20px;
+}
+.info-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+  max-width: 1368px;
+  padding: 0px 36px;
+}
+.info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+.info-title {
+  font-family: "Azeret Mono", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21.6px;
+  text-align: center;
+}
+.info-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36.4px;
+  text-align: center;
+}
+.info-subtext {
+  margin-bottom: 35px;
+}
+
+/* Gallery section */
+.gallery-section {
+  background: #fff;
+  padding: 120px 0px;
+}
+
+.gallery-container {
+  display: flex;
+  gap: 40px;
+  max-width: 1368px;
+  margin: 0 auto;
+}
+
+.gallery-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 1;
+}
+
+.gallery-right {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.gallery-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  display: block;
+}
+
+.gallery-img-top {
+  width: 644px;
+  height: 300px;
+}
+
+.gallery-img-bottom {
+  width: 644px;
+  height: 300px;
+}
+
+.gallery-img-large {
+  width: 644px;
+  height: 640px;
+}
+
+/* Award section  */
+
+.award-section {
+  background: #4a2b33;
+  padding: 120px 20px;
+}
+.award-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 267px;
+  max-width: 1400px;
+}
+.award-title {
+  flex: 1;
+  font-family: "Azeret Mono", sans-serif;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 62.5px;
+  letter-spacing: 1px;
+}
+.award-description {
+  flex: 1;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 52px 70px 15px;
+  background: #ffffff;
+}
+.footer-container {
+  max-width: 1340px;
+}
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 32px;
+  row-gap: 7px;
+  list-style: none;
+  max-width: 650px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.footer-link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22.4px;
+  text-align: center;
+  color: #1f1f1f;
+  text-decoration: none;
+}
+.footer-details {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.copyright {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19.5px;
+  text-align: center;
+  color: #696969;
+}
+.copyright-link {
+  text-decoration: none;
+  color: #696969;
+}
